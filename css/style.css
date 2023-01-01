@@ -726,6 +726,7 @@ opacity: 1;
   }
   .services .feature__detail {
     width: 100%;
+    padding: 0 1.5rem;
   }
   
   .tab-content {
