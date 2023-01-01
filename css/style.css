@@ -244,12 +244,12 @@ padding-right: 3rem;
     height: 20.9rem;
     align-self: center;
     margin-bottom: 2.5rem;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
 }
 
 .description p {
     text-align: right;
-    padding-left: 2.5rem;
+    /* padding-left: 2.5rem; */
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
@@ -263,7 +263,7 @@ padding-right: 3rem;
     .description {
         flex-direction: row;
         justify-content: space-between;
-        padding: 6% 10%;
+        margin: 6% 10%;
     }
     .description--secondary {
         flex-direction: row-reverse;
@@ -626,7 +626,11 @@ opacity: 1;
     border: solid 3px white;
 }
 
-.hero-btn-secondary {
+.hero--btn * {
+    color: black;
+}
+
+.hero-btn-secondary, .hero-btn-secondary * {
     background-color: rgba(23,26,60, 0);
     color: var(--color-white);
 }
